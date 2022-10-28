@@ -115,7 +115,7 @@ const UserForm: NextPage = () => {
 
   useEffect(() => {
     const postData = async () => {
-      const response = await fetch("http://localhost:3001/test", {
+      const response = await fetch("https://track-food-server.herokuapp.com/test", {
         method: "POST",
         mode: "cors",
         cache: "no-cache",
